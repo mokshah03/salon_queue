@@ -1,0 +1,16 @@
+{
+  "name": "salon-queue",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Salon Queue Management System (MERN) - helper scripts for client and server",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start:server": "npm start --prefix server",
+    "build:client": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
